@@ -1,6 +1,6 @@
 <idea-plugin>
     <id>ru.fixprice.fixplugin</id>
-    <name>FixPlugin</name>
+    <name>FixGen</name>
     <vendor url="https://github.com/z0rgoyok">Denis Zabozhanov</vendor>
     <description><![CDATA[
         Generate UUID directly into empty strings via intention action.
