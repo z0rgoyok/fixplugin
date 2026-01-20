@@ -1,7 +1,7 @@
 <idea-plugin>
     <id>ru.fixprice.fixplugin</id>
     <name>FixGen</name>
-    <vendor url="https://github.com/z0rgoyok">Denis Zabozhanov</vendor>
+    <vendor>FixPrice Android Team</vendor>
     <description><![CDATA[
         Generate UUID directly into empty strings via intention action.
         Place cursor inside an empty string literal ("") and invoke the intention to insert a generated UUID.
