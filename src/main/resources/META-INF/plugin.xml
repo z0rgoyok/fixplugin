@@ -1,0 +1,50 @@
+<idea-plugin>
+    <id>ru.fixprice.fixplugin</id>
+    <name>FixPlugin</name>
+    <vendor url="https://github.com/z0rgoyok">Denis Zabozhanov</vendor>
+    <description><![CDATA[
+        Generate UUID directly into empty strings via intention action.
+        Place cursor inside an empty string literal ("") and invoke the intention to insert a generated UUID.
+    ]]></description>
+
+    <depends>com.intellij.modules.platform</depends>
+    <depends>com.intellij.modules.lang</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <intentionAction>
+            <language>JAVA</language>
+            <className>ru.fixprice.fixplugin.GenerateUuidIntention</className>
+            <category>UUID</category>
+        </intentionAction>
+        <intentionAction>
+            <language>kotlin</language>
+            <className>ru.fixprice.fixplugin.GenerateUuidIntention</className>
+            <category>UUID</category>
+        </intentionAction>
+        <intentionAction>
+            <language>JSON</language>
+            <className>ru.fixprice.fixplugin.GenerateUuidIntention</className>
+            <category>UUID</category>
+        </intentionAction>
+        <intentionAction>
+            <language>yaml</language>
+            <className>ru.fixprice.fixplugin.GenerateUuidIntention</className>
+            <category>UUID</category>
+        </intentionAction>
+        <intentionAction>
+            <language>XML</language>
+            <className>ru.fixprice.fixplugin.GenerateUuidIntention</className>
+            <category>UUID</category>
+        </intentionAction>
+        <intentionAction>
+            <language>TEXT</language>
+            <className>ru.fixprice.fixplugin.GenerateUuidIntention</className>
+            <category>UUID</category>
+        </intentionAction>
+        <intentionAction>
+            <language></language>
+            <className>ru.fixprice.fixplugin.GenerateUuidIntention</className>
+            <category>UUID</category>
+        </intentionAction>
+    </extensions>
+</idea-plugin>
